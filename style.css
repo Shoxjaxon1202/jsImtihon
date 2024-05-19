@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 60px 150px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+#list__card {
+  width: 250px;
+  height: 600px;
+  border-radius: 8px;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  color: white;
+}
+#list__card:hover {
+box-shadow: -10px -10px  10px 5px rgba(229, 23, 146, 0.75);
+}
+.card__img {
+  height: 190px;
+  width: 100%;
+  border-radius: 8px;
+}
+.card-title {
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+.texts {
+  padding: 18px;
+}
+.card-text {
+  margin-bottom: 20px;
+}
+.btn {
+  width: 150px;
+  text-decoration: none;
+  color: white;
+  background-color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: rgb(100, 41, 156);
+}
+.son {
+  margin-top: 20px;
+}
